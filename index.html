@@ -30,6 +30,9 @@
           extend: {
             backgroundImage: {
               "hero-bg": "url('./images/banner.png')",
+              slide1: "url('./images/slider-1.jpg')",
+              slide2: "url('./images/slider-2.jpg')",
+              slide3: "url('./images/slider-3.jpg')",
             },
             colors: {
               clifford: "#da373d",
@@ -114,17 +117,17 @@
           </div>
           <div class="navbar-end">
             <a
-              class="btn bg-primary text-white text-[18px] font-bold hover:bg-primary"
+              class="btn bg-primary text-white md:text-[18px] font-bold hover:bg-primary"
               >Free Consultation</a
             >
           </div>
         </div>
       </nav>
-      <div class="hero min-h-[calc(100vh-168px)] bg-hero-bg rounded-lg">
+      <div class="hero min-h-[calc(100vh-300px)] bg-hero-bg rounded-lg">
         <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-[40rem]">
-            <h1 class="mb-5 text-7xl font-bold garamond">
+            <h1 class="mb-5 text-4xl md:text-7xl font-bold garamond">
               We Provide Effective Legal Solutions
             </h1>
             <p class="mb-5">
@@ -302,18 +305,23 @@
           humour.
         </p>
         <!-- Carousal -->
-        <div class="carousel w-full mt-16">
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="./images/slider-1.jpg" class="max-w-full" />
+        <div class="carousel w-full mt-16 md:h-[700px] h-[300px]">
+          <div
+            id="slide1"
+            class="carousel-item bg-slide1 bg-cover bg-no-repeat rounded-xl relative w-full md:h-[500px]"
+          >
             <div
-              class="absolute transform -translate-y-1/2 top-1/2 left-1/2 -translate-x-1/2 text-white max-w-[900px] mx-auto flex flex-col justify-center items-center"
+              class="absolute inset-0 bg-slate-700 bg-opacity-60 rounded-xl"
+            ></div>
+            <div
+              class="md:p-20 px-5 py-10 text-center w-full relative text-white max-w-full mx-auto flex flex-col justify-center items-center"
             >
-              <img src="./images/round.png" alt="" />
-              <h4 class="garamond text-2xl font-extrabold mt-5">
+              <img src="./images/round.png" class="w-[50px] md:max-w-full" />
+              <h4 class="garamond md:text-2xl md:font-extrabold md:mt-5">
                 Awlad Hossain
               </h4>
-              <p>UIX Designer</p>
-              <p class="mt-8">
+              <p class="text-sm">UIX Designer</p>
+              <p class="md:mt-8 mt-5 text-sm">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin literature from
                 45 BC, making it over 2000 years old. Richard McClintock, a
@@ -328,18 +336,23 @@
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide2" class="carousel-item relative w-full">
-            <img src="./images/slider-2.jpg" class="w-full" />
+          <div
+            id="slide2"
+            class="carousel-item bg-slide2 bg-cover bg-no-repeat relative w-full rounded-xl md:h-[500px]"
+          >
             <!-- Content -->
             <div
-              class="absolute transform -translate-y-1/2 top-1/2 left-1/2 -translate-x-1/2 text-white max-w-[900px] mx-auto flex flex-col justify-center items-center"
+              class="absolute inset-0 bg-slate-700 bg-opacity-60 rounded-xl"
+            ></div>
+            <div
+              class="md:p-20 px-5 py-10 text-center w-full relative text-white max-w-full mx-auto flex flex-col justify-center items-center"
             >
-              <img src="./images/round.png" alt="" />
-              <h4 class="garamond text-2xl font-extrabold mt-5">
+              <img src="./images/round.png" class="w-[50px] md:max-w-full" />
+              <h4 class="garamond md:text-2xl md:font-extrabold md:mt-5">
                 Awlad Hossain
               </h4>
-              <p>UIX Designer</p>
-              <p class="mt-8">
+              <p class="text-sm">UIX Designer</p>
+              <p class="md:mt-8 mt-5 text-sm">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin literature from
                 45 BC, making it over 2000 years old. Richard McClintock, a
@@ -355,18 +368,23 @@
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div id="slide3" class="carousel-item relative w-full">
-            <img src="./images/slider-3.jpg" class="w-full" />
+          <div
+            id="slide3"
+            class="carousel-item bg-slide3 bg-cover bg-no-repeat relative w-full rounded-xl md:h-[500px]"
+          >
             <!-- Content -->
             <div
-              class="absolute transform -translate-y-1/2 top-1/2 left-1/2 -translate-x-1/2 text-white max-w-[900px] mx-auto flex flex-col justify-center items-center"
+              class="absolute inset-0 bg-slate-700 bg-opacity-60 rounded-xl"
+            ></div>
+            <div
+              class="md:p-20 px-5 py-10 text-center w-full relative text-white max-w-full mx-auto flex flex-col justify-center items-center"
             >
-              <img src="./images/round.png" alt="" />
-              <h4 class="garamond text-2xl font-extrabold mt-5">
+              <img src="./images/round.png" class="w-[50px] md:max-w-full" />
+              <h4 class="garamond md:text-2xl md:font-extrabold md:mt-5">
                 Awlad Hossain
               </h4>
-              <p>UIX Designer</p>
-              <p class="mt-8">
+              <p class="text-sm">UIX Designer</p>
+              <p class="md:mt-8 mt-5 text-sm">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin literature from
                 45 BC, making it over 2000 years old. Richard McClintock, a
@@ -506,7 +524,7 @@
           <!-- Box -->
           <div class="grid grid-cols-2 flex-1">
             <div
-              class="bg-[#F3F3F3] py-4 justify-center border border-[#CFCFCF] flex flex-col gap-3 items-center"
+              class="bg-[#F3F3F3] py-4 justify-center border-b border-[#CFCFCF] flex flex-col gap-3 items-center"
             >
               <div>
                 <img src="./images/address.png" class="max-w-full" />
@@ -518,7 +536,7 @@
               </p>
             </div>
             <div
-              class="bg-[#F3F3F3] py-4 flex justify-center flex-col gap-3 items-center"
+              class="bg-[#F3F3F3] py-4 justify-center border-b border-l border-[#CFCFCF] flex flex-col gap-3 items-center"
             >
               <div>
                 <img src="./images/call.png" class="max-w-full" />
@@ -542,7 +560,7 @@
               </p>
             </div>
             <div
-              class="bg-[#F3F3F3] py-4 justify-center border border-[#CFCFCF] flex flex-col gap-3 items-center"
+              class="bg-[#F3F3F3] py-4 justify-center border-l border-[#CFCFCF] flex flex-col gap-3 items-center"
             >
               <div>
                 <img src="./images/address.png" />
@@ -594,7 +612,7 @@
           <p class="mb-4">
             Subscribe for our latest & Articles. We Won’t Give You Spam Mails
           </p>
-          <div class="form-control w-80">
+          <div class="form-control md:w-80 w-64">
             <div class="relative">
               <input
                 type="text"
